@@ -12,6 +12,9 @@ shipkit {
 
    // generate GitHub write token, and ensure your Travis CI has this env variable exported
    gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
+
+   // javadoc configuration
+   javadoc.repository = "dcoraboeuf/shipkit-workshop-18-javadoc"
 }
 
 allprojects {
